@@ -46,24 +46,32 @@ For Linux/MacOS/Git Bash
 ```
 - create all the migrations file (database migrations) required to run this App.
 
-```bash
+```Python
    python manage.py makemigrations
 ```
 - Now, to apply this migrations run the following command
 
-```bash
+```python
    python manage.py migrate
 ```
 - We need to create an admin user to run this App. Type the following command and provide username, password and email for the admin user
 
-```bash
+```python
    python manage.py createsuperuser
 ```
 - We just need to start the server now. Start the server by following command
 
-```bash
+```python
    python manage.py runserver
 ```
 - Once the server is hosted, head over to http://127.0.0.1:8000/todos to check the app is running.
 
 ![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/2.png)
+
+## step 2 : Create requirement file
+We will create a requirement file using the following command. It will add all the changes or dependencies we had to install because of error in this file and it will help us in Docker part.
+
+```python
+   pip freeze > requirement.txt
+```
+   
