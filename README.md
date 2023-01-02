@@ -64,4 +64,6 @@ For Linux/MacOS/Git Bash
 ```bash
    python manage.py runserver
 ```
-- Once the server is hosted, head over to http://127.0.0.1:8000/todos to check the app is running,
+- Once the server is hosted, head over to http://127.0.0.1:8000/todos to check the app is running.
+
+![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/2.png)
