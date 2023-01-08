@@ -160,6 +160,8 @@ you can check and take the version of django from requirement.txt we created ear
 
 ![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/7.PNG)
 
-- No go to your browser and copy your public IP and use it to check if the app is running as shown in screenshot
+- Now go to your browser and copy your public IP and use it to check if the app is running as shown in screenshot
 
+enter your public IP:8001. example : 3.88.168.176:8001
 
+![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/10.PNG)
