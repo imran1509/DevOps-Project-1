@@ -74,4 +74,8 @@ We will create a requirement file using the following command. It will add all t
 ```python
    pip freeze > requirement.txt
 ```
-   
+
+## step 3 : Set up AWS EC2 instance
+
+- Create an EC2 instance and connect to it via SSH from your terminal
+    
