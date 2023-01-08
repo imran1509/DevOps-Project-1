@@ -130,7 +130,7 @@ find allowed host and enter your public IP or just enter '*' so that all Ip are 
    sudo apt install docker.io
 ```
 
-## step 4 : Create dockerfile
+## step 4 : Create dockerfile and run it
 
 - using vim create a Dockerfile
 
@@ -165,3 +165,5 @@ you can check and take the version of django from requirement.txt we created ear
 enter your public IP:8001. example : 3.88.168.176:8001
 
 ![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/10.PNG)
+
+## step 5 : Install jenkins on your EC2 instance
