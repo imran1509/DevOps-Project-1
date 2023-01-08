@@ -156,4 +156,4 @@ you can check and take the version of django from requirement.txt we created ear
    sudo docker run -p 8001:8001 62761281ad8f
 ```
 
-
+![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/7.PNG)
