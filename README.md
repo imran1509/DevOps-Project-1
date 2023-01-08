@@ -138,6 +138,10 @@ find allowed host and enter your public IP or just enter '*' so that all Ip are 
 
 - enter insert mode by pressing "i" and write the file as shown in the screenshot.
 
+![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/6.PNG)
+
+you can check and take the version of django from requirement.txt we created earlier.
+
 - press esc and use :wq and enter to save the file and exit vim.
 
 - Now build the docker file we created
@@ -151,4 +155,5 @@ find allowed host and enter your public IP or just enter '*' so that all Ip are 
 ```bash
    sudo docker run -p 8001:8001 62761281ad8f
 ```
+
 
