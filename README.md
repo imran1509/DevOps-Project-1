@@ -79,3 +79,7 @@ We will create a requirement file using the following command. It will add all t
 
 - Create an EC2 instance and connect to it via SSH from your terminal
     
+![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/3.png)
+
+- After successfully connecting to the EC2 instnce, it will look something like this
+
