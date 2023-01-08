@@ -83,3 +83,21 @@ We will create a requirement file using the following command. It will add all t
 
 - After successfully connecting to the EC2 instnce, it will look something like this
 
+![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/4.png)
+
+- Now we are on EC2 instance. so create a new directory named DevOps_Project_1
+
+```bash
+   mkdir DevOps_Project_1
+```
+- No change directory to the newly created directory
+
+```bash
+   cd DevOps_Project_1
+```
+
+- clone the django todo app repo here like we did in local
+
+```bash
+   git clone https://github.com/shreys7/django-todo.git
+```
