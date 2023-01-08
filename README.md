@@ -90,7 +90,7 @@ We will create a requirement file using the following command. It will add all t
 ```bash
    mkdir DevOps_Project_1
 ```
-- No change directory to the newly created directory
+- Now change directory to the newly created directory
 
 ```bash
    cd DevOps_Project_1
@@ -101,3 +101,54 @@ We will create a requirement file using the following command. It will add all t
 ```bash
    git clone https://github.com/shreys7/django-todo.git
 ```
+
+![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/5.PNG)
+
+- Now change directory and move to the django-todo directory
+
+```bash
+   cd django-todo/
+```
+
+- Add your instance's public IP to allowed host in setting.py file
+
+```bash
+   vi todoApp/settings.py
+```
+
+find allowed host and enter your public IP or just enter '*' so that all Ip are allowed
+
+- Also go to you EC2 dashoard > go to secuirity groups > edit inbound rules > add rule nd add rule as shown in screenshot to allow traffic from everywhere on mentioned port.
+
+
+
+- Now go back to terminal and  Install docker on the EC2 instance
+
+```bash
+   sudo apt install docker.io
+```
+
+## step 4 : Create dockerfile
+
+- using vim create a Dockerfile
+
+```bash
+   vi Dockerfile
+```
+
+- enter insert mode by pressing "i" and write the file as shown in the screenshot.
+
+- press esc and use :wq and enter to save the file and exit vim.
+
+- Now build the docker file we created
+
+```bash
+   sudo docker build . -t todo-app
+```
+
+- In the end you will get a container ID. Copy that container ID and run the container with the following command.
+
+```bash
+   sudo docker run -p 8001:8001 62761281ad8f
+```
+
