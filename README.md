@@ -120,7 +120,7 @@ find allowed host and enter your public IP or just enter '*' so that all Ip are 
 
 - Also go to you EC2 dashoard > go to secuirity groups > edit inbound rules > add rule nd add rule as shown in screenshot to allow traffic from everywhere on mentioned port.
 
-
+![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/8.PNG)
 
 - Now go back to terminal and  Install docker on the EC2 instance
 
