@@ -4,8 +4,6 @@ In this project we will deploy a Django todo app on an AWS EC2 instance using Do
 ## Prerequisites
 Before starting the project you should have these things in your system.
 
-- **Jenkins** installed
-- **Docker** installed
 - Account on **AWS**
 - **Python** with Virtual environment & **Django** installed
 - Todo App code (we will use code from this repository : [Django todo app](https://github.com/shreys7/django-todo))
@@ -310,8 +308,12 @@ use above command to open the file and then add jenkins like this
 - It worked successfully. No you can check in other tab with public IP and port number if the app is running.
 
 
+![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/21.PNG)
 
+- woohoo. congrats your app is running and you have successfully completed this project.
 
+## Contact Me
 
+- If you still have any issue you can contact me on my twitter @codenameimmy
 
 
