@@ -269,11 +269,17 @@ enter your public IP:8001. example : 3.88.168.176:8001
 
 ## step 7 : Integrate jenkins with GitHub
 
-- Open your instance's jenkins and go to manage jenkins > configure sytsem > find github here and add your github credentials
+- Open your instance's jenkins and go to manage jenkins > configure sytsem > find github servers here and add your github credentials
+
+![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/16.PNG)
+
+- save it. 
+
+## Step 8 : Deploy the app using Jenkins now
+
+- Create a new job
 
 
-
-- 
 
 
 
