@@ -246,7 +246,7 @@ enter your public IP:8001. example : 3.88.168.176:8001
 ```
 use above command to open the file and then add jenkins like this
 
-
+![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/20.PNG)
 
 ## Step 6 : create a GitHub repo for the project and push code from local to the repository
 
@@ -304,6 +304,10 @@ use above command to open the file and then add jenkins like this
 ```
 
 ![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/19.PNG)
+
+- save it and click on build now to run the job.
+
+- It worked successfully. No you can check in other tab with public IP and port number if the app is running.
 
 
 
