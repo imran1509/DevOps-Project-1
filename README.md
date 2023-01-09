@@ -239,6 +239,15 @@ enter your public IP:8001. example : 3.88.168.176:8001
 
 ![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/15.PNG)
 
+- Open your terminal and add jenkins to sudoers s shon in the screen shot so that when we build our job in jenkins it can have sudo access
+
+```bash
+   sudo visudo
+```
+use above command to open the file and then add jenkins like this
+
+
+
 ## Step 6 : create a GitHub repo for the project and push code from local to the repository
 
 - create a new GitHub repository with name you want.
