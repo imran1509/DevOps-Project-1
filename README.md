@@ -229,5 +229,8 @@ enter your public IP:8001. example : 3.88.168.176:8001
    sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 
+![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/13.PNG)
+
+-
 
 
