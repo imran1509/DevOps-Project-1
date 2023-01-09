@@ -277,7 +277,9 @@ enter your public IP:8001. example : 3.88.168.176:8001
 
 ## Step 8 : Deploy the app using Jenkins now
 
-- Create a new job
+- Create a new job as a freestyle project named todo-app
+
+- 
 
 
 
