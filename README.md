@@ -166,4 +166,58 @@ enter your public IP:8001. example : 3.88.168.176:8001
 
 ![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/10.PNG)
 
-## step 5 : Install jenkins on your EC2 instance
+## step 5 : Install and setup jenkins on your EC2 instance
+
+- Update your system
+
+```bash
+   sudo apt update
+```
+
+- Install java
+
+```bash
+   sudo apt install openjdk-11-jre
+```
+
+- Install jenkins : Just copy these commands, paste them and run them one by one onto your terminal
+
+```bash
+   curl -fsSL https://pkg.jenkins.io/debian/jenkins.io.key | sudo tee \   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+```
+
+
+```bash
+   echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \   https://pkg.jenkins.io/debian binary/ | sudo tee \   /etc/apt/sources.list.d/jenkins.list > /dev/null
+```
+
+
+```bash
+   sudo apt-get update
+```
+
+
+```bash
+   sudo apt-get install jenkins
+```
+
+- Start Jenkins with these commands
+
+```bash
+   sudo systemctl enable jenkins
+```
+
+
+```bash
+   sudo systemctl start jenkins
+```
+
+
+```bash
+   sudo systemctl status jenkins
+```
+
+- Add port 8080 to your inbound rules in secuirity groups to allow traffic on it like we did for port 8001.
+
+- Now open Jenkins in browser by using public IP and port number
+
