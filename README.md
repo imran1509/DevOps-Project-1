@@ -231,6 +231,12 @@ enter your public IP:8001. example : 3.88.168.176:8001
 
 ![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/13.PNG)
 
--
+- Click install suggested plugin and go ahead ith the installation
+
+![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/14.PNG)
+
+- create and setup your admin user and your are done. You must be on the Jenkins homepage now
+
+
 
 
