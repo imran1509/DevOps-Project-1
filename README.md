@@ -221,3 +221,13 @@ enter your public IP:8001. example : 3.88.168.176:8001
 
 - Now open Jenkins in browser by using public IP and port number
 
+![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/12.PNG)
+
+- Get the password from given location and paste it here
+
+```bash
+   sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+```
+
+
+
