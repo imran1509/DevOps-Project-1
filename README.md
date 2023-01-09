@@ -237,6 +237,17 @@ enter your public IP:8001. example : 3.88.168.176:8001
 
 - create and setup your admin user and your are done. You must be on the Jenkins homepage now
 
+![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/15.PNG)
+
+## Step 6 : create a GitHub repo for the project and push code from local to the repository
+
+- create a new GitHub repository with name you want.
+
+- copy the repository url, now go back to instance terminal and change the remote repository to your new repository
+
+```bash
+   
+
 
 
 
