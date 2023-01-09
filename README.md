@@ -246,7 +246,7 @@ enter your public IP:8001. example : 3.88.168.176:8001
 - copy the repository url, now go back to instance terminal and change the remote repository to your new repository
 
 ```bash
-   git remote set-url origin https://github.com/imran1509/DevOps-Project-1.git
+   git remote set-url origin https://github.com/imran1509/jenkins-cicd.git
 ```
 
 - Add ll files to staged
@@ -279,7 +279,9 @@ enter your public IP:8001. example : 3.88.168.176:8001
 
 - Create a new job as a freestyle project named todo-app
 
-- 
+- Then in source code management choose git. And paste your repositpory url there.
+
+
 
 
 
