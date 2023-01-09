@@ -1,6 +1,8 @@
 # DevOps Project 1 (using Docker, Jenkins and AWS)
 In this project we will deploy a Django todo app on an AWS EC2 instance using Docker and Jenkins.
 
+![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/cover.jpg)
+
 ## Prerequisites
 Before starting the project you should have these things in your system.
 
