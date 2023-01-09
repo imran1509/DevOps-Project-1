@@ -261,6 +261,18 @@ enter your public IP:8001. example : 3.88.168.176:8001
    git commit -m "added server code"
 ```
 
+- push the code to repository
+
+```bash
+   git push origin develop
+```
+
+## step 7 : Integrate jenkins with GitHub
+
+- Open your instance's jenkins and go to manage jenkins > configure sytsem > find github here and add your github credentials
+
+
+
 - 
 
 
