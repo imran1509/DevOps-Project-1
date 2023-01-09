@@ -281,6 +281,11 @@ enter your public IP:8001. example : 3.88.168.176:8001
 
 - Then in source code management choose git. And paste your repositpory url there.
 
+![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/17.PNG)
+
+- And in branches to build, write develop as we have pushed our code to the develop branch.
+
+
 
 
 
