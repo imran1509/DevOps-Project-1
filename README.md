@@ -285,6 +285,15 @@ enter your public IP:8001. example : 3.88.168.176:8001
 
 - And in branches to build, write develop as we have pushed our code to the develop branch.
 
+![](https://github.com/imran1509/DevOps-Project-1/blob/main/Screenshots/18.PNG)
+
+- Now in build step. Add build step as eecute shell and write the following commands.
+
+```bash
+   sudo docker build . -t todo-app
+   sudo docker run -p 8001:8001 -d todo-app
+```
+
 
 
 
